@@ -1,11 +1,13 @@
 import pytest
-@pytest.fixture
+#@pytest.fixture
 def testAdd(a,b):
   return (a + b)
 
-@pytest.fixture
+#@pytest.fixture
 def ztmptest2():
   print("hello 2 from tests/ztmptest2...")
-  assert testAdd(1,2)==3
+ # assert testAdd(1,2)==3
   
 ztmptest2()
+#print("hello from ztmptest2")
+
