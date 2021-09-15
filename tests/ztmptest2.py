@@ -6,6 +6,8 @@ def testAdd(a,b):
 #@pytest.fixture
 def ztmptest2():
   print("hello 2 from tests/ztmptest2...")
+  print("hello 3 from tests/ztmptest2...")
+  
  # assert testAdd(1,2)==3
   
 ztmptest2()
